@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+aiogram>=3.2.0
+sqlalchemy[asyncio]>=2.0.0
+asyncpg
+jinja2
+python-multipart
+python-dotenv
+redis>=4.0.0
+
+# НОВАЯ ЗАВИСИМОСТЬ ДЛЯ БРОКЕРА
+celery[redis]
